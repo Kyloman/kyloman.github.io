@@ -3,20 +3,16 @@
 <head>
     <title> TEST PAGE3</title>
     <meta charset = "utf-8" />
+    <meta name="description" content="A practice website to learn web development">
     <meta name="viewport" content="width=device-width" />
     <link rel="shortcut icon" type="image/x-icon" href="/site/images/favicon.ico" />
     <link rel="mask-icon" href="/site/images/favicon.svg" color="#5bbad5"/>
-    <link rel="apple-touch-icon" type="image/png" href="/site/images/favicon.png" />
-    
+    <link rel="apple-touch-icon" type="image/png" href="/site/images/favicon.png" />  
     <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="/site/images/favicon.png" />
 
-    
-    <!-- <link rel="alternate" href="https://www.machinelearningworkshop.com/fr/" hreflang="fr-FR" /> -->
-    <!--<link rel="canonical" href="https://kyloman.github.io/Coursera-HTML-CSS-JS/" />-->
- 
-    <!-- <meta http-equiv="content-security-policy" content="default-src https:" /> -->
-    <meta name="description" content="A practice website to learn web development">
-    <meta name="robots" content="noindex, nofollow"/>
+    <!-- <link rel="alternate" href="https://www.machinelearningworkshop.com/fr/" hreflang="fr-FR" /> (alternate language example)-->
+    <!-- <meta http-equiv="content-security-policy" content="default-src https:" /> (security policy that may be needed later)-->
+    <!-- <meta name="robots" content="noindex, nofollow"/> (put this on pages where you don't want bots to peruse)-->
     <meta name="color" content="#226DAA"/>
 
     <meta property="og:title" content="Kyloman's website" />
@@ -33,6 +29,10 @@
     <meta name="twitter:creator" content="@kyloman" />
     <meta name="twitter:site" content="@kyloman" />
 
+    <link rel="canonical" href="https://kyloman.github.io/site/" />
+
+    <!-- <link rel="manifest" href="/mlwmanifest.json" /> (skip over this for now, we barely know what json is for lol)-->
+
 
     <!--<base target="_top" href="https://machinelearningworkshop.com" />-->
     <!--If you have a <base> element with target="_top" in the <head> of your HTML document,
@@ -41,10 +41,41 @@
            will replace the entire page, not just the content of the iframe.-->
 </head>
 <body>
+    <header>
+        <h1>Kyloman's website</h1>
+        <nav>
+            <a href="#about"> About </a>
+            <a href="#projects"> Projects </a>
+            <a href="#games"> Games </a>
+            <a href="#art"> Art </a>
+        </nav>
+
+    </header>
+
+    <main>
     d: '\n'
     cd GitHub
     <h1>browser-sync start --server --directory --files "*"</h1>
     <img src="/site/images/favicon.png" alt="My Image">
+
+    <div> This is a test for div</div>
+    <div> Here is another div</div>
+    <span> now here is a span</span>
+    <span> More span</span>
+    <div>A div and then a <span> span</span></div>
+    <h1>Kyloman's website</h1>
+    <section id="about"> <h2>About Site</h2></section>
+    <section id="projects"> <h2>Here are some cool projects</h2></section>
+    <section id="games"> <h2>This is some games that I have played</h2></section>
+    <section id="art"> <h2>This is some art that I made</h2></section>
+    </main>
+    <aside>
+    Sidebar
+    </aside>
+    <footer>
+        <p>&copy;2023 Kyloman Studios, LLC. All rights reserved.</p>
+        <address><a href = "/contact.html">Contact me</a></address>
+    </footer>
 </body>
 
 </html>
