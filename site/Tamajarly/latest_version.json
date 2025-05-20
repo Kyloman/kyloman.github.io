@@ -1,5 +1,5 @@
 {
   "version": "0.4.0", 
   "url": "https://kyloman.github.io/site/Tamajarly/Tamajarly.zip", 
-  "notes": "What's new in this version:\n- New launcher 1\n- Cloud saving" 
+  "notes": "\n- New launcher!\n  - Automatically updates/repairs Tamajarly!\n- Cloud saving!\n  - Automatically saves game data!\n- Inventory glitch fix\n- New monthly event (Graduation Day)\n- Revamped save/load system\n- Improved switching between scenes\n- Added bootstrapper\n- Removed premium hay (lack of use)" 
 }
