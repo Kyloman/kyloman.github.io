@@ -1,5 +1,5 @@
 {
-  "version": "0.4.1", 
-  "url": "https://kyloman.github.io/site/Tamajarly/Tamajarly.zip", 
-  "notes": "\n- New save system!\n  - Loads and unloads through accounts\n  - Automatically saves game data!\n Revamped Halloween event!"
+  "version": "0.4.2", 
+  "url": "https://github.com/Kyloman/Tamajarly/releases/download/current-version/Tamajarly.zip", 
+  "notes": "\n- Tamajarly is expanded! \n- Events are fixed! \n- New dialogue has been added"
 }
