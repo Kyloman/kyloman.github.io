@@ -1,5 +1,5 @@
 {
-  "version": "0.4.3", 
-  "url": "https://github.com/Jarly-Enthusiasts/Tamajarly-Download/releases/download/current-release/Tamajarly.zip", 
-  "notes": "\n- Adding some Thanksgiving dialogue"
+  "version": "0.4.4",
+  "url": "https://github.com/Jarly-Enthusiasts/Tamajarly-Download/releases/download/current-release/Tamajarly.zip",
+  "notes": "\n- New letters in the mail\n- Inventory has 30 slots now\n- Hotbar hides when the inventory is open\n- Toys from letters go to your inventory now\n- Toys come out next to the toy chest\n- Fixed the toy chest losing toys\n- Added bet buttons to the slots\n- Slots wins go up with your bet\n- Added autospin to the slots\n- Stop button on the slots works properly now\n- Can't spin without enough coins anymore\n- Fixed a duplicate payline\n- Fixed the volume sliders\n- Slots, claw machine and a few other sounds follow the volume settings now\n- Eating sound stops when the jarly is done eating\n- Fixed the egg popup spamming\n- Fixed the held item disappearing when the inventory is full\n- Grid tool mode switch is Left Shift now\n- Save gets backed up every time the game starts\n- Older versions of the game can't load newer saves anymore\n- Redid how time is tracked\n- Launcher can play offline now"
 }
